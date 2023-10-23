@@ -70,3 +70,20 @@ SQL Limitations:
 
 Solutions:
 Dynamic SQL or parameterized queries are used. Generated on the fly; can change based on user input
+
+
+### 🗓️ Week 2: Introduction to Relational Model
+
+#### 📍 Database Schema
+- schema: the logical structure of the database
+- instance: a snapshot of the data in the database at a given instant in time
+- example:
+--> schema: *instructor (ID, name, dept_name, salary)*
+--> instance: (data table)
+
+Keys are the concepts that form the backbone of relational database design, ensuring data integrity, reducing redundancy, and enabling data retrieval and manipulation, and those keys are:
+- Superkey (SK)
+- Candidate Key (CK)
+- Primary Key (PK)
+--> example: ID + gaboleh null values 
+- Foreign Key (FK)
