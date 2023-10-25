@@ -65,8 +65,7 @@ kolom OrderID
 
 #### 📍 Discussion 5.2
 1. Views in SQL
-- View definition and use
-Definisi dan kegunaan View dalam sebuah SQL adalah hasil dari
+- View definition and use. Definisi dan kegunaan View dalam sebuah SQL adalah hasil dari
 sebuah query SQL yang disimpan dalam basis data sebagai objek yang
 bersifat virtual. View adalah sebuah tabel virtual yang bisa digunakan
 sama seperti tabel sebenarnya. View digunakan untuk
@@ -74,16 +73,15 @@ menyederhanakan sebuah kompleksitas pada sebuah query,
 mengamankan sebuah data, dan bertujuan agar mempermudah
 pengguna untuk memahami
 
-- View expansion
-View expansion tidak biasa digunakan dalam konteks database
+- View expansion tidak biasa digunakan dalam konteks database
 SQL. Tetapi, View Expansion ini dapat merujuk pada proses dimana
 tampilan diperluas atau dipecah menjadi elemen penyusunnya saat
 membuat kueri atau memanipulasi data. Hal ini biasanya
 mempengaruhi perubahan sebuah kueri yang mempengaruhi tampilan
 menjadi kueri secara eksplisit mereferensikan tabel dan kolom dasar
 yang secara efektif dalam memperluas view.
-- Update of view
-Update of view adalah sebuah pembaruan view, apakah view
+
+- Update of view adalah sebuah pembaruan view, apakah view
 bersifat updatable atau tidak. Tetapi update of view dapat melakukan
 pembaharuan hanya pada view yang sederhana, seperti:
 ● Klausa from hanya memiliki satu relasi database
