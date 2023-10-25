@@ -14,19 +14,19 @@ Natural Join dan Inner Join adalah dalam penggunaan Inner Join kita harus
 bisa menentukan secara spesifik kolom dan kondisi, sedangkan Natural Join
 akan menggabungkan dua tabel sesuai dengan nama attribute dan datatype
 yang sama. Ada beberapa hal yang bisa membedakan Natural Join dan Inner
-Join, seperti :
-- Returned Records :
+Join, seperti:
+- Returned Records:
 Pada Natural Join, apabila tidak ada kondisi yang ditentukan,
 maka akan secara otomatis mencari atribut yang memiliki value yang
 sama di kedua tabel. Sedangkan pada Inner Join, value yang dihasilkan
 adalah value yang exist dan sama dalam kedua tabel sesuai dengan
 kondisi pengecekannya.
-- Syntax :
+- Syntax:
 Natural Join = SELECT * FROM tabel1 NATURAL JOIN tabel2
 Inner Join = SELECT * FROM tabel1 INNER JOIN tabel2 ON
 tabel1.Nama_Kolom = tabel2.Nama_Kolom
 
-- Left Join :
+- Left Join:
 Teknik Left Join akan digunakan ketika kita ingin
 menggabungkan tabel1 dengan kolom yang cocok di tabel2. Dengan
 kata lain, tabel1 akan menjadi patokan dan akan memberi output yang
@@ -36,7 +36,7 @@ berubah, kemudian untuk mendapatkan kolom status, akan di cocokan
 kolom customer_id di tabel orders dengan kolom customer di tabel
 shippings.
 
-- Right Join :
+- Right Join:
 Teknik Right Join akan digunakan ketika kita ingin
 menggabungkan tabel2 yang valuenya di cocokan dengan kolom di
 tabel1. Dengan syntax ‘from orders right join shippings’ itu sama saja
@@ -47,10 +47,9 @@ hasilnya tentu saja berbeda dengan hasil left join yang ada diatas,
 karena kali ini yang menjadi patokan adalah tabel shippings sehingga
 urutan pada kolom status tidak akan berubah. Bagian yang kosong
 dikarenakan pada tabel shippings terpadat customer_id = 5 sedangkan
-pada tabel orders tidak ada data mengenai customer_id yang bernilai
-5.
+pada tabel orders tidak ada data mengenai customer_id yang bernilai 5.
 
-- Full Join :
+- Full Join:
 Teknik Full Join akan digunakan untuk menggabungkan semua
 baris di kolom yang telah dipilih dengan SELECT yang kemudian akan
 di cek kondisinya dengan ON. Dalam contoh di bawah, kolom
