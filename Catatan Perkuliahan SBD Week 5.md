@@ -65,7 +65,7 @@ kolom OrderID
 
 #### 📍 Discussion 5.2
 1. Views in SQL
-a. View definition and use
+   a. View definition and use
 Definisi dan kegunaan View dalam sebuah SQL adalah hasil dari
 sebuah query SQL yang disimpan dalam basis data sebagai objek yang
 bersifat virtual. View adalah sebuah tabel virtual yang bisa digunakan
@@ -93,7 +93,7 @@ expressions atau pembeda apapun
 jadi null
 ● Query tidak memiliki group by atau having clause
 
-2. Benefit of using views:
+  2. Benefit of using views:
 a. Simplicity
 Melalui views seseorang dapat mengambil data dari berbagai
 tabel dan semuanya ditunjukkan lewat satu tabel saja.
@@ -110,7 +110,7 @@ yang dapat mengubahnya. Views juga dapat di-maintain dengan cukup
 mudah tetapi apabila query yang ada terlalu banyak ataupun ketika
 suatu query mengambil data dari banyak tabel maka maintainabilitynya tidak akan terjaga.
 
-3. Limitation of using views
+  3. Limitation of using views
 Meskipun views tergolong aman, masih ada resiko seperti terlihatnya
 data yang bisa saja sensitif kepada orang yang diberikan akses. Orang tersebut
 tidak bisa mengubah data tersebut tapi orang masih bisa melihat data yang
