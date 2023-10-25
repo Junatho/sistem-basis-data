@@ -84,7 +84,7 @@ yang secara efektif dalam memperluas view.
 - Update of view adalah sebuah pembaruan view, apakah view
 bersifat updatable atau tidak. Tetapi update of view dapat melakukan
 pembaharuan hanya pada view yang sederhana, seperti:
-● Klausa from hanya memiliki satu relasi database
+  Klausa from hanya memiliki satu relasi database
 ● Klausa select hanya berisi nama atribut relasi dan tidak memiliki
 expressions atau pembeda apapun
 ● Setiap attribute yang tidak di list dalam klausa select akan di set
